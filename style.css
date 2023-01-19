@@ -4,3 +4,58 @@ span {
     font-size: 12px;
     vertical-align:top;
 }
+#head {
+    height: 1%;
+    background-color: yellow;
+}
+
+#content {
+    text-align: center;
+}
+#img-footer {
+    width: 100%;
+}
+
+.icon {
+    height:75px;
+}
+
+#topic {
+    float: left;
+    display: block;
+    width:80%;
+}
+
+#menu {
+    float: right;
+    display: block;
+    width:20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#pg_weekaff {
+    background-color: yellow;
+}
+
+#left {
+    float: left;
+    display: block;
+    width:50%;
+    background-color: blue;
+}
+
+#right {
+    float: right;
+    display: block;
+    width:50%;
+    background-color: pink;
+    align-items: right;
+}
+
+ul {
+    align-items: center;
+}
+
