@@ -1,0 +1,95 @@
+h1 {
+    font-size: 100px;
+    color: #9d7865;
+    font-style: italic;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    line-height: 10pt;
+    font-style: normal;
+}
+body {
+    background-image: url("img/top.png");
+    background-size: cover;
+}
+
+#header {
+    height: 1%;
+    background-color: white;
+    padding-top: 10px;
+    margin: 0;
+    width: 100%
+}
+
+#header span {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align:top;
+    margin-left: 10px;
+}
+.push-right {
+    padding-left:65%;
+}
+
+#header ul{
+    list-style-type: none;
+}
+
+#header li{
+    display: inline;
+    right: 0;
+}
+
+.icon {
+    height:50px;
+}
+
+#content {
+    text-align: center;
+    background-image: url("img/paper.jpg");
+    background-size: cover;
+    opacity:95%;
+}
+
+#content p {
+    line-height: 10pt;
+}
+
+#program {
+    background-color: #bda99e;
+    opacity:80%;
+    width:100%;
+    text-align: center;
+}
+
+#program span{
+    display: inline-block;
+    width: 40%;
+    padding-left: auto;
+    text-align: center;
+}
+
+#program ul{
+    padding-left: 20px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+#program table, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+
+
