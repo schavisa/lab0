@@ -1,20 +1,15 @@
-h1 {
-    font-size: 100px;
-    color: #9d7865;
-    font-style: italic;
-    text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 h3 {
     text-align: center;
+    font-family: "Times New Roman";
 }
 
 h4 {
     text-align: center;
     line-height: 10pt;
     font-style: normal;
+    font-family: "Times New Roman";
 }
+
 body {
     background-image: url("img/top.png");
     background-size: cover;
@@ -32,10 +27,48 @@ body {
     display: inline-block;
     font-size: 12px;
     vertical-align:top;
-    margin-left: 10px;
 }
-.push-right {
-    padding-left:65%;
+
+@media (min-width:500px){
+    .push-right {
+        padding-left:65%;
+    }
+
+    h1 {
+        font-size: 100px;
+        color: #9d7865;
+        font-style: italic;
+        text-align: center;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-family: "Times New Roman";
+    }
+
+    #program span{
+        display: inline-block;
+        width: 40%;
+        padding-left: auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:499px){
+    .push-right {
+        padding-left:0%;
+    }
+
+    h1 {
+        font-size: 70px;
+        color: #9d7865;
+        font-style: italic;
+        text-align: center;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-family: "Times New Roman";
+    }
+
+    #program span{
+        display: inline-block;
+    }
 }
 
 #header ul{
@@ -60,6 +93,7 @@ body {
 
 #content p {
     line-height: 10pt;
+    font-family: "Times New Roman";
 }
 
 #program {
@@ -69,16 +103,8 @@ body {
     text-align: center;
 }
 
-#program span{
-    display: inline-block;
-    width: 40%;
-    padding-left: auto;
-    text-align: center;
-}
-
 #program ul{
     padding-left: 20px;
-    margin-left: 100px;
     text-align: left;
 }
 
@@ -88,6 +114,14 @@ body {
     border: 1px solid;
     border-collapse: collapse;
     padding: 5px;
+}
+
+#footer {
+    display:flex;
+    background-color: #bda99e;
+    opacity:95%;
+    width:100%;
+    align-items: center;
 }
 
 
